@@ -1,0 +1,7 @@
+path: D:\\yolov\\datasets
+train: D:\\yolov\\datasets\\lumian\\train\\images
+val: D:\\yolov\\datasets\\lumian\\val\\images
+test: D:\\yolov\\datasets\\lumian\\test\\images
+
+nc: 1
+names: ['person']
