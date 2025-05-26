@@ -4,15 +4,7 @@
 
 ## 项目简介
 
-本项目实现了YOLOv8模型在RK3566芯片上的部署，支持目标检测、实例分割和姿态估计等功能。
-
-## 环境要求
-
-- Python 3.8+
-- PyTorch 1.7+
-- ONNX 1.7+
-- RKNN-Toolkit2
-- OpenCV 4.5+
+YOLOv8模型训练和转换等功能。
 
 ## 安装步骤
 
@@ -28,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## 转换方法
-ultralytics_yolov8-main
+ultralytics_yolov8-main  负责pt转rknn
 主要修改了heady.py     6个输出头
 已经修改heady故不能训练和推理
 1. 模型转换
